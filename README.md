@@ -1,27 +1,14 @@
-# MeuPrimeiroApp
+# Projeto Meu-primeiro-app com Angular
+# Plataforma Alura
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Pasta node_modules, contêm todas as dependências da aplicação, esta estão descritas no arquivo package.json, neste arquivo estão as dependências para o processo de desenvolvimento como também o de produção.
+## O arquivo karma.conf.js é o arquivo de configuração para execução dos testes.
+## O arquivo angular.json, contêm as configurações específicas para este projeto que foi criado.
+## O arquivo browserlist, contêm a lista de browsers suportada pelo angular
+## A pasta src é a nossa pasta principal, onde está todos os nossos templates e componentes.
+## O arquivo style.css vai conter o estilo principal da aplicação ou seja o estilo global.
+## O arquivo polifills é caso haja a necessidade de dá suporte a browsers mais antigos.
+## A pasta environments, vai conter as nossas variáveis de ambiente de desenvolvmento e de produção.
+## para executar a aplicação ng serve --open, executa a aplicação e já abre o browser.
+## Main.ts é nosso arquivo de entrada, ele vai ativa o AppModule, em seguida o appcomponente
+## Main -> AppModule -> AppComponent ->
